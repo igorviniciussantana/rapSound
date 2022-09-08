@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@200;300;400;500;600;700;800;900&family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700;9..144,800;9..144,900&display=swap');
+
+
+
+@media screen and (min-width:800px) {
+
+
+    * {
+
+
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+
+
+    }
+
+    body {
+
+        width: 100%;
+        background-color: #F0EDDA;
+
+    }
+
+
+    header {
+
+
+        font-family: 'Fraunces', sans-serif;
+        display: flex;
+        width: 100%;
+        height: 5vh;
+
+        color: #F02425;
+
+        justify-content: space-between;
+        padding: 5px 10px;
+
+    }
+
+    header h2 {
+
+        padding: 11px 22px;
+        display: flex;
+        align-items: center;
+
+    }
+
+    header .contact {
+
+
+        background-color: #F02425;
+        color: #F0EDDA;
+        border-radius: 50px;
+
+
+
+
+    }
+
+
+    .links {
+
+        display: flex;
+        width: 40%;
+        justify-content: space-between;
+
+        font-size: 1rem;
+
+
+    }
+
+
+    main {
+        height: 95vh;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+
+    }
+
+
+    .quadrado1 {
+
+        display: flex;
+        justify-content: center;
+    }
+
+    .img2 img{
+
+width: 50vw;
+height: 100%;
+
+    }
+
+    .img3 img{
+
+width: 50vw;
+height: 100%;
+
+
+    }
+
+    .quadrado1 .txt {
+
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .quadrado1 .txt h1 {
+
+
+        font-family: 'Fraunces', sans-serif;
+        width: 70%;
+        font-size: 3.4rem;
+    }
+
+    .quadrado1 .txt p {
+
+
+        font-family: 'Barlow', sans-serif;
+        width: 70%;
+        font-size: 2rem;
+        text-align: justify;
+    }
+
+
+
+    .quadrado2 {
+
+        display: flex;
+        justify-content: center;
+    }
+
+    .quadrado2 .txt2 {
+
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .quadrado2 .txt2 h1 {
+
+
+        font-family: 'Fraunces', sans-serif;
+        width: 70%;
+        font-size: 3.4rem;
+    }
+
+    .quadrado2 .txt2 p {
+
+
+        font-family: 'Barlow', sans-serif;
+        width: 70%;
+        font-size: 2rem;
+        text-align: justify;
+    }
+
+
+
+
+
+
+
+}
