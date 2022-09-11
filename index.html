@@ -1,181 +1,183 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/media.css" />
+    <title>rapSound | Sua coletânia de Rap</title>
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/media.css">
-    <title>rapSound</title>
-</head>
-
-<body>
+  <body>
+    <label class="switch" onclick="myFunction_set()">
+      <input type="checkbox" id="checkbox" />
+      <span class="slider round"></span>
+    </label>
     <header>
-        <h1>rapSound</h1>
-        <div class="links">
-            <h2>About</h2>
-            <h2>Services</h2>
-            <h2>Projects</h2>
-            <h2 class="contact">Contact</h2>
-        </div>
+      <h1 id="header">rapSound</h1>
+      <div class="links">
+        <h2>About</h2>
+        <h2>Services</h2>
+        <h2>Projects</h2>
+        <h2 class="contact">Contact</h2>
+      </div>
     </header>
 
     <div class="container">
-        <main>
-            <div class="img">
-                <img src="img/image 1.png" alt="Mf Doom">
-            </div>
-        </main>
-        <div class="quadrado1">
-            <div class="txt">
-                <h1>Os resquícios do Guetto na fama.</h1>
-                <p>Um dos mais cultuados rappers da atualidade lançou um dos mais aguardados álbuns dos últimos cinco
-                    anos. Kendrick Lamar apresentou ao mundo o álbum Mr. Morale & the big steppers, o primeiro disco
-                    desde o aclamado e vencedor do Pulitzer Damn., de 2017, e a quinta produção de estúdio da carreira.
-                </p>
-            </div>
-            <div class="img2">
-                <img src="img/image 2.png" alt="Capa do álbum Mr. Morale and The Big Steppers">
-            </div>
+      <main>
+        <img src="img/image 1.png" class="mf-doom" alt="Mf Doom" />
+        <a href="#quadrado1" class="seta"
+          ><img src="img/arrow_down.svg" alt=""
+        /></a>
+      </main>
+      <div class="quadrado1" id="quadrado1">
+        <div class="txt">
+          <h1>Os resquícios do Guetto na fama.</h1>
+          <p>
+            Um dos mais cultuados rappers da atualidade lançou um dos mais
+            aguardados álbuns dos últimos cinco anos. Kendrick Lamar apresentou
+            ao mundo o álbum Mr. Morale & the big steppers, o primeiro disco
+            desde o aclamado e vencedor do Pulitzer Damn., de 2017, e a quinta
+            produção de estúdio da carreira.
+          </p>
         </div>
 
+        <img
+          src="img/image 2.png"
+          class="img02"
+          alt="Capa do álbum Mr. Morale and The Big Steppers"
+        />
+      </div>
 
-        <div class="quadrado2">
-            <div class="img3">
-                <img src="img/image 3.png" alt="Tyler">
-            </div>
-            <div class="txt2">
-                <h1>Da controvérsia ao Grammy.</h1>
-                <p>O rapper que passou por diversas controvérsias no início da carreira conquista, em 2022, seu segundo
-                    grammy seguido. O álbum Call Me If You Get Lost foi o vencedor da categoria Melhor Album de Rap, que
-                    Tyler já havia conquistado com o álbum Igor, em 2019.</p>
-            </div>
+      <div class="quadrado2">
+        <img src="img/image 3.png" class="img03" alt="Tyler" />
+        <div class="txt2">
+          <h1>Da controvérsia ao Grammy.</h1>
+          <p>
+            O rapper que passou por diversas controvérsias no início da carreira
+            conquista, em 2022, seu segundo grammy seguido. O álbum Call Me If
+            You Get Lost foi o vencedor da categoria Melhor Album de Rap, que
+            Tyler já havia conquistado com o álbum Igor, em 2019.
+          </p>
+        </div>
+      </div>
+
+      <div class="quadrado3">
+        <div class="img04">
+          <h2>Beats & Hits</h2>
+          <p>Como Metro Boomin transformou seu sofrimento em sucesso</p>
         </div>
 
-        <div class="quadrado3">
-            <div class="img4">
-                <img src="img/image 4.png" alt="">
-            </div>
+        <div class="img05">
+          <h2>Beats & Hits</h2>
+          <p>
+            Como Dr. Dre se tornou o primeiro rapper bilionário da indústria.
+          </p>
+        </div>
+      </div>
 
-            <h2>Beats & Hits</h2>
-            <p>Como Metro Boomin transformou seu
-                sofrimento em sucesso</p>
-
-            <div class="img5">
-                <img src="img/image 5.png" alt="">
-            </div>
-
-            <h2>Beats & Hits</h2>
-            <p>Como Dr. Dre se tornou o primeiro rapper
-                bilionário da indústria.</p>
+      <div class="quadrado-equipe">
+        <div class="titulo">
+          <h1>Nossa equipe</h1>
         </div>
 
-        <div class="quadrado-equipe">
-            <div class="titulo">
-                <h1>Nossa equipe</h1>
+        <div class="equipe-images">
+          <div class="card">
+            <div class="img6">
+              <img src="img/image 6.png" alt="" />
             </div>
 
-            <div class="equipe-images">
-                <div class="card1">
-                    <div class="img6">
-                        <img src="img/image 6.png" alt="">
-                    </div>
-
-                    <div class="txt-image6">
-                        <h2>André</h2>
-                        <p>Breve descrição sobre a pessoa,
-                            tratando os aspectos principais
-                            feitos no projetos.</p>
-                    </div>
-                </div>
-
-                <div class="card2">
-                    <div class="img7">
-                        <img src="img/image 7.png" alt="">
-                    </div>
-
-                    <div class="txt-image7">
-                        <h2>Carlos</h2>
-                        <p>Breve descrição sobre a pessoa,
-                            tratando os aspectos principais
-                            feitos no projetos.</p>
-                    </div>
-                </div>
-
-                <div class="card3">
-                    <div class="img8">
-                        <img src="img/image 8.png" alt="">
-                    </div>
-
-                    <div class="txt-image8">
-                        <h2>Edivaldo</h2>
-                        <p>Breve descrição sobre a pessoa,
-                            tratando os aspectos principais
-                            feitos no projetos.</p>
-                    </div>
-                </div>
-
-                <div class="card4">
-                    <div class="img9">
-                        <img src="img/image 9.png" alt="">
-                    </div>
-
-                    <div class="txt-image9">
-                        <h2>Igor</h2>
-                        <p>Breve descrição sobre a pessoa,
-                            tratando os aspectos principais
-                            feitos no projetos.</p>
-                    </div>
-                </div>
+            <div class="card-txt">
+              <h2>André</h2>
+              <p>
+                Breve descrição sobre a pessoa, tratando os aspectos principais
+                feitos no projetos.
+              </p>
             </div>
+          </div>
+
+          <div class="card">
+            <div class="img7">
+              <img src="img/image 7.png" alt="" />
+            </div>
+
+            <div class="card-txt">
+              <h2>Carlos</h2>
+              <p>
+                Breve descrição sobre a pessoa, tratando os aspectos principais
+                feitos no projetos.
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="img8">
+              <img src="img/image 8.png" alt="" />
+            </div>
+
+            <div class="card-txt">
+              <h2>Edivaldo</h2>
+              <p>
+                Breve descrição sobre a pessoa, tratando os aspectos principais
+                feitos no projetos.
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="img9">
+              <img src="img/image 9.png" alt="" />
+            </div>
+
+            <div class="card-txt">
+              <h2>Igor</h2>
+              <p>
+                Breve descrição sobre a pessoa, tratando os aspectos principais
+                feitos no projetos.
+              </p>
+            </div>
+          </div>
         </div>
+      </div>
 
-        <div class="quadrado-fotos">
-            <div class="images">
-                <div class="img10">
-                    <img src="img/image 10.png" alt="">
-                </div>
-
-                <div class="img11">
-                    <img src="img/image 11.png" alt="">
-                </div>
-
-                <div class="img12">
-                    <img src="img/image 12.png" alt="">
-                </div>
-
-                <div class="img13">
-                    <img src="img/image 13.png" alt="">
-                </div>
-            </div>
-        </div>
-
-        <footer>
-            <div class="footer">
-                <h2>rapSound</h2>
-                <div class="links">
-                    <a href="#">About</a>
-                    <a href="#">Contact</a>
-                    <a href="#">Services</a>
-                </div>
-
-                <div class="icons">
-                    <div class="img14">
-                        <img src="img/Twitter.png" alt="">
-                    </div>
-
-                    <div class="img15">
-                        <img src="img/Facebook.png" alt="">
-                    </div>
-
-                    <div class="img16">
-                        <img src="img/Instagram.png" alt="">
-                    </div>
-                </div>
-                <button>Seta</button>
-            </div>
-        </footer>
+      <div class="quadrado-fotos">
+        <img src="img/image 10.png" alt="" /><img
+          src="img/image 11.png"
+          alt=""
+        /><img src="img/image 12.png" alt="" /><img
+          src="img/image 13.png"
+          alt=""
+        />
+      </div>
     </div>
-</body>
 
+    <footer>
+      <img class="deco1" src="img/footer-img-1.svg" alt="" srcset="" />
+      <img class="deco2" src="img/footer-img-2.svg" alt="" srcset="" />
+      <h2>rapSound</h2>
+      <div class="footer-links">
+        <div class="column">
+          <a href="#">About</a
+          ><a href="https://twitter.com" target="_blank"
+            ><img src="img/Twitter.png" alt=""
+          /></a>
+        </div>
+        <div class="column">
+          <a href="#">Contact</a
+          ><a href="https://facebook.com" target="_blank"
+            ><img src="img/Facebook.png" alt="" /></a
+          ><a href="#header" class="seta2"
+            ><img src="img/arrow_up.svg" alt=""
+          /></a>
+        </div>
+        <div class="column">
+          <a href="#">Services</a>
+          <a href="https://instagram.com" target="_blank"
+            ><img src="img/Instagram.png" alt=""
+          /></a>
+        </div>
+      </div>
+    </footer>
+    <script src="js/script.js"></script>
+  </body>
 </html>
