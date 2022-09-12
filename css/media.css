@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url("https://fonts.googleapis.com/css2?family=Barlow:wght@200;300;400;500;600;700;800;900&family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700;9..144,800;9..144,900&display=swap");
 
 @media screen and (min-width: 800px) {
@@ -277,12 +278,12 @@
   }
   .img04 {
     background-image: linear-gradient(to top, rgb(0, 0, 0), rgba(24, 23, 24, 0)),
-      url("/img/image\ 4.png");
+      url("../img/image 4.png");
   }
 
   .img05 {
     background-image: linear-gradient(to top, rgb(0, 0, 0), rgba(24, 23, 24, 0)),
-      url("/img/image\ 5.png");
+    url("../img/image 5.png");
   }
   .img04,
   .img05 {
@@ -430,3 +431,60 @@
     bottom: 0;
   }
 }
+=======
+@media screen and (max-width: 800px){
+ body{
+    background-color: #F0EDDA;
+ }
+ .img1{
+    width: 400px;
+    height: 450px;
+ }
+ .quadrado1{
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+ }
+ .img2{
+    width: 428px;
+    margin-left: -12px;
+ }
+ .titulo1{
+   font-size: 30px;
+ }
+ .text1{
+  font-size: 22px;
+  width: 100%;
+  text-align: justify;
+ }
+ .txt{
+   width: 100%;
+ }.img3{
+   width: 428px;
+   margin-left: -12px;
+ }
+ .img4{
+   width: 428px;
+   margin-left: -12px;
+ }
+ .img5{
+   width: 428px;
+   margin-left: -12px;
+ }
+ .name{
+   color: red;
+   text-align: center;
+ }
+ .img{
+   margin-left: 150px;
+ }
+ .descrição-grupo{
+   width: 100%;
+   text-align: center;
+ }
+ .img8{
+   width: 100%;
+ }
+ }
+>>>>>>> 9c2e01df8925557e593690868fba24aa0e49b7aa

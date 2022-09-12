@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@200;300;400;500;600;700;800;900&family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700;9..144,800;9..144,900&display=swap");
+
+@media screen and (max-width: 800px) {
+    body{
+        background-color: #f0edda;
+    }
+    .mf-doom{
+        width: 480px;
+        height: 400px;
+    }
+    .quadrado1{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .img02{
+        margin-top: 50px;
+        margin-left: -10px;
+        width: 485px;
+    }
+    .txt{
+        margin-top: 40px;
+    }
+    p{
+        text-align: justify;
+    }
+    .img03{
+        margin-top: 50px;
+        margin-left: -10px;
+        width: 485px; 
+    }
+    .titulo{
+        text-align: center;
+        color: red;
+    }
+    .card-txt{
+        text-align: center;
+    }
+    .txt2{
+        text-align: center;
+    }
+    .imgs-first{
+        margin-left: 190px;
+    }
+    .cors-name{
+        color: red;
+    }
+    .quadrado-fotos{
+        margin-top: 40px;
+    }
+    .img-first{
+        width: 238px;
+        height: 230px;
+        margin-left: -5px;
+    }
+    .img-second{
+        width: 234px;
+        height: 230px; 
+        margin-left: -5px;
+    }
+    .img-there{
+        width: 238px;
+        height: 230px;
+        margin-left: -5px; 
+        margin-top: -20px;
+    }
+    .img-bedroom{
+        width: 234px;
+        height: 230px; 
+        margin-left: -5px;    
+        margin-top: -10px;
+    }
+    .seta2{
+        width: 40px;
+        margin-left: 220px;
+    }
+    .img04 {
+        background-image: linear-gradient(to top, rgb(0, 0, 0), rgba(24, 23, 24, 0)),
+          url("../img/image 4.png");
+      }
+    
+      .img05 {
+        background-image: linear-gradient(to top, rgb(0, 0, 0), rgba(24, 23, 24, 0)),
+        url("../img/image 5.png");
+      }
+      .img04,
+      .img05 {
+        background-position: center;
+        background-size: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 0 0 20px 0;
+        align-items: center;
+        justify-content: flex-end;
+        color: #f0edda;
+        cursor: pointer;
+        transition: 500ms;
+        height: 280px;
+        margin-left: -10px;
+        width: 482px;
+      }
+      .img04:hover,
+      .img05:hover {
+        background-size: 110%;
+        transition: 500ms;
+        padding: 0 0 30px 0;
+      }
+      .img04 h2,
+      .img05 h2 {
+        font-family: "Fraunces";
+      }
+    
+      .img04 p,
+      .img05 p {
+        font-family: "Barlow";
+        width: 50%;
+        text-align: center;
+      }
+    .h1{
+        margin-left: -70px;
+    }
+}
