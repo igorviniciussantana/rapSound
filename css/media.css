@@ -277,12 +277,12 @@
   }
   .img04 {
     background-image: linear-gradient(to top, rgb(0, 0, 0), rgba(24, 23, 24, 0)),
-      url("/img/image\ 4.png");
+      url("../img/image 4.png");
   }
 
   .img05 {
     background-image: linear-gradient(to top, rgb(0, 0, 0), rgba(24, 23, 24, 0)),
-      url("/img/image\ 5.png");
+    url("../img/image 5.png");
   }
   .img04,
   .img05 {
