@@ -152,7 +152,7 @@
     transition: 500ms;
   }
 
-  .links {
+  #links {
     display: flex;
     min-width: 40vw;
     justify-content: space-between;

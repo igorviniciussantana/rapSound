@@ -47,7 +47,7 @@
     .switch{
         position: absolute;
     }
-    .meio{
+    main{
         display: flex;
         align-items: center;
         justify-content: center;
