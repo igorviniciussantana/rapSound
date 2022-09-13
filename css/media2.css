@@ -3,11 +3,78 @@
 @media screen and (max-width: 800px) {
     body{
         background-color: #f0edda;
+        position: relative;
+    }
+    header{
+        display: flex;
+        align-items: center;
+        padding: 0 15px 0 15px;
+
+    }
+    #links{
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 3.5%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: #f02425;
+        color: #f0edda;
+        width: 90%;
+        font-size: 15px;
+    }
+    .contact {
+        background-color: #f0edda;
+        color: #f02425;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 50px;
+        transition: 500ms;
+        width: 140px;
+
+      }
+      .contact:hover {
+        background-color: #a3a29a;
+        transition: 500ms;
+      }
+    #header{
+        color: #f02425;
+
+    }
+    .switch{
+        position: absolute;
+    }
+    .meio{
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     .mf-doom{
+        margin-top: 45%;
+        align-items: center;
         width: 480px;
         height: 400px;
     }
+    .seta {
+        position: absolute;
+        top: 11%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        bottom: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    .seta img {
+        width: 60%;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        transition: 1s;
+      }
+      
+
     .quadrado1{
         display: flex;
         flex-direction: column-reverse;
@@ -30,7 +97,7 @@
     }
     .titulo{
         text-align: center;
-        color: red;
+        color: #f02425;
     }
     .card-txt{
         text-align: center;
@@ -42,7 +109,7 @@
         margin-left: 190px;
     }
     .cors-name{
-        color: red;
+        color: #f02425;
     }
     .quadrado-fotos{
         margin-top: 40px;
@@ -118,4 +185,5 @@
     .h1{
         margin-left: -70px;
     }
+ 
 }
