@@ -18,6 +18,9 @@
     bottom: 0;
     z-index: 1;
   }
+  #menu{
+    display: none;
+  }
 
   .switch {
     position: fixed;
@@ -149,7 +152,7 @@
     transition: 500ms;
   }
 
-  .links {
+  #links {
     display: flex;
     min-width: 40vw;
     justify-content: space-between;
