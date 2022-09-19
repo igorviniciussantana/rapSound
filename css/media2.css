@@ -1,6 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Barlow:wght@200;300;400;500;600;700;800;900&family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700;9..144,800;9..144,900&display=swap");
 
 @media screen and (max-width: 800px) {
+    * {
+        margin: 0;
+        padding: 0;
+        
+      }
+        :root {
+    --main-color: #f02425;
+    --light-color: #f0edda;
+    --text-color: #202024;
+  }
     body{
         background-color: #f0edda;
         position: relative;
@@ -8,21 +18,39 @@
     header{
         display: flex;
         align-items: center;
-        padding: 0 15px 0 15px;
-
+        padding: 15px;
+        margin-top: 15px;
+    }
+    #header{
+        font-size: 28px;
+        margin-left: 10px;
+    }
+    .img{
+        width: 33px;
+        height: 23px;
+        
+    }
+    #links2{
+        display: none;
+    }
+    main{
+        max-width: 100%;
     }
     #links{
         display: none;
         flex-direction: column;
+        row-gap: 30px;
+        margin-top: 15px;
         align-items: center;
         justify-content: center;
         position: absolute;
         top: 3.5%;
-        left: 50%;
+        left: 46%;
         transform: translate(-50%, -50%);
         background-color: #f02425;
         color: #f0edda;
-        width: 90%;
+        width: 80%;
+        height: 250px;
         font-size: 15px;
     }
     .contact {
@@ -59,19 +87,21 @@
         height: 400px;
     }
     .seta {
-        position: absolute;
-        top: 11%;
-        left: 50%;
-        transform: translate(-50%, -50%);
         bottom: 10px;
         display: flex;
         align-items: center;
         justify-content: center;
       }
     .seta img {
+        position: absolute;
+        top: 12.5%;
+        left: 50%;
+        transform: translate(-50%, -50%);
         width: 60%;
         filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
         transition: 1s;
+        width: 60px;
+        height: 60px;
       }
       
 
@@ -82,7 +112,7 @@
     .img02{
         margin-top: 50px;
         margin-left: -10px;
-        width: 485px;
+        max-width: 100%;
     }
     .txt{
         margin-top: 40px;
@@ -93,7 +123,7 @@
     .img03{
         margin-top: 50px;
         margin-left: -10px;
-        width: 485px; 
+        max-width: 100%;
     }
     .titulo{
         text-align: center;
@@ -136,18 +166,16 @@
         margin-left: -5px;    
         margin-top: -10px;
     }
-    .seta2{
-        width: 40px;
-        margin-left: 220px;
-    }
     .img04 {
         background-image: linear-gradient(to top, rgb(0, 0, 0), rgba(24, 23, 24, 0)),
           url("../img/image 4.png");
+          max-width: 100%;
       }
     
       .img05 {
         background-image: linear-gradient(to top, rgb(0, 0, 0), rgba(24, 23, 24, 0)),
         url("../img/image 5.png");
+        max-width: 100%;
       }
       .img04,
       .img05 {
@@ -185,5 +213,76 @@
     .h1{
         margin-left: -70px;
     }
+    footer {
+        position: relative;
+        background-color: var(--main-color);
+        display: flex;
+        height: 50vh;
+        max-width: 100%;
+        row-gap: 30px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+      footer h2 {
+        color: #f0edda;
+        font-family: "Fraunces";
+        font-size: 1.5rem;
+      }
+      .footer-links {
+        display: flex;
+        font-family: "Barlow";
+        column-gap: 30px;
+      }
+    
+      .footer-links a {
+        text-decoration: none;
+        text-align: center;
+        color: #f0edda;
+        font-size: 1rem;
+      }
+      .icon{
+        width: 30px;
+        height: 30px;
+      }
+    
+      .column {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+      }
+    
+      .deco1,
+      .deco2 {
+        position: absolute;
+      }
+    
+      .deco1 {
+        width: 100px;
+        height: 100px;
+        left: 0;
+        bottom: 0;
+      }
+    
+      .deco2 {
+        width: 120px;
+        height: 120px;
+        right: 0;
+        bottom: 0;
+      }
+      .seta2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 30px;
+      }
+    
+      .seta2 img {
+        width: 60%;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        transition: 1s;
+      }
+    
  
 }
