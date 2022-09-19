@@ -152,12 +152,15 @@
     transition: 500ms;
   }
 
-  #links {
+  #links2 {
     display: flex;
     min-width: 40vw;
     justify-content: space-between;
 
     font-size: 1rem;
+  }
+  #links {
+    display: none;
   }
 
   main {
