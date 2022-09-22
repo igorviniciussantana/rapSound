@@ -7,26 +7,33 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="css/media.css" />
   <link rel="stylesheet" href="css/media2.css">
+  <link rel="shortcut icon" href="img/favicon.png" type="image/png">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <title>rapSound | Sua coletânia de Rap</title>
 </head>
 
 <body>
+
   <label class="switch" onclick="myFunction_set()">
     <input type="checkbox" id="checkbox" />
     <span class="slider round"></span>
   </label>
+
+
   <header>
     <div>
-      <h1 id="header">rapSound</h1>
+      <h1 id="header" data-aos="fade-right" >rapSound</h1>
     </div>
-    <div class="img"><img id="menu" src="img/Group 5.png" alt="menu" onclick="Mostrar()"></div>
+    <img id="menu" src="img/Group 5.png" data-aos="fade-left" alt="menu" onclick="Mostrar()">
+
     <div id="links" style="display: none;">
       <h2>About</h2>
       <h2>Services</h2>
       <h2>Projects</h2>
       <h2 class="contact">Contact</h2>
     </div>
-    <div id="links2">
+
+    <div id="links2"  data-aos="fade-left">
       <h2>About</h2>
       <h2>Services</h2>
       <h2>Projects</h2>
@@ -37,12 +44,12 @@
   <div class="container">
     <main>
 
-      <img src="img/image 1.png" class="mf-doom" alt="Mf Doom" />
+      <img data-aos="fade-up" src="img/image 1.png" class="mf-doom" alt="Mf Doom" />
 
       <a href="#quadrado1" class="seta"><img src="img/arrow_down.svg" alt="" /></a>
     </main>
     <div class="quadrado1" id="quadrado1">
-      <div class="txt">
+      <div class="txt" data-aos="fade-up">
         <h1>Os resquícios do Guetto na fama.</h1>
         <p>
           Um dos mais cultuados rappers da atualidade lançou um dos mais
@@ -53,12 +60,12 @@
         </p>
       </div>
 
-      <img src="img/image 2.png" class="img02" alt="Capa do álbum Mr. Morale and The Big Steppers" />
+      <img data-aos="fade-up" src="img/image 2.png" class="img02" alt="Capa do álbum Mr. Morale and The Big Steppers" />
     </div>
 
-    <div class="quadrado2">
-      <img src="img/image 3.png" class="img03" alt="Tyler" />
-      <div class="txt2">
+    <div class="quadrado2" data-aos="fade-up">
+      <img data-aos="fade-up" src="img/image 3.png" class="img03" alt="Tyler" />
+      <div class="txt2" data-aos="fade-up">
         <h1>Da controvérsia ao Grammy.</h1>
         <p>
           O rapper que passou por diversas controvérsias no início da carreira
@@ -70,12 +77,12 @@
     </div>
 
     <div class="quadrado3">
-      <div class="img04">
+      <div class="img04"  data-aos="fade-up">
         <h2>Beats & Hits</h2>
         <p>Como Metro Boomin transformou seu sofrimento em sucesso</p>
       </div>
 
-      <div class="img05">
+      <div class="img05" data-aos="fade-up" data-aos-delay="100">
         <h2>Beats & Hits</h2>
         <p>
           Como Dr. Dre se tornou o primeiro rapper bilionário da indústria.
@@ -89,7 +96,7 @@
       </div>
 
       <div class="equipe-images">
-        <div class="card">
+        <div class="card"  data-aos="fade-up">
 
           <div class="card-txt">
 
@@ -106,7 +113,7 @@
           </div>
         </div>
 
-        <div class="card">
+        <div class="card" data-aos="fade-up" data-aos-delay="50">
   
           <div class="card-txt">
 
@@ -123,7 +130,7 @@
           </div>
         </div>
 
-        <div class="card">
+        <div class="card" data-aos="fade-up" data-aos-delay="150">
 
           <div class="card-txt">
             
@@ -140,7 +147,7 @@
           </div>
         </div>
 
-        <div class="card">
+        <div class="card" data-aos="fade-up" data-aos-delay="200">
 
 
           <div class="card-txt">
@@ -161,10 +168,10 @@
     </div>
 
     <div class="quadrado-fotos">
-      <img src="img/image 10.png" class="img10" alt="" />
-      <img src="img/image 11.png"  class="img11" alt="" />
-      <img src="img/image 12.png"  class="img12" alt="" />
-      <img src="img/image 13.png"  class="img13" alt="" />
+      <img src="img/image 10.png" class="img10" alt="" data-aos="zoom-in"/>
+      <img src="img/image 11.png"  class="img11" alt=""  data-aos="zoom-in" data-aos-delay="50"/>
+      <img src="img/image 12.png"  class="img12" alt=""  data-aos="zoom-in" data-aos-delay="100" />
+      <img src="img/image 13.png"  class="img13" alt=""  data-aos="zoom-in" data-aos-delay="150"/>
     </div>
   </div>
 
@@ -187,6 +194,10 @@
     </div>
   </footer>
   <script src="js/script.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>
