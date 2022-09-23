@@ -46,8 +46,11 @@ Confira abaixo algumas capturas do nosso projeto ja finalizado.
 
 - Também implementamos um modo escuro, onde o usuário pode escolher o tema desejado.
 ## Autores
-
-- [@igoviniciussantana](https://github.com/igorviniciussantana)
-- [@Edivaldo12345](https://github.com/Edivaldo12345)
-- [@andredochute](https://github.com/andredochute)
-- [@Carlos-Eduardo-Dias](https://github.com/Carlos-Eduardo-Dias)
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/igorviniciussantana"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/86114583?v=4" width="100px;" alt=""/><br /><sub><b>Igor Vinicius</b></sub></a><br /><a href="https://rapsound.vercel.app" title="rapSound">🎶</a></td>
+    <td align="center"><a href="https://github.com/andredochute"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/86085474?v=4" width="100px;" alt=""/><br /><sub><b>André Luís</b></sub></a><br /><a href="https://rapsound.vercel.app" title="rapSound">🎶</a></td>
+    <td align="center"><a href="https://rocketseat.com.br"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/86132535?v=4" width="100px;" alt=""/><br /><sub><b>Carlos Eduardo</b></sub></a><br /><a href="https://rapsound.vercel.app" title="rapSound">🎶</a></td>
+    <td align="center"><a href="https://rocketseat.com.br"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/86030921?v=4" width="100px;" alt=""/><br /><sub><b>Edivaldo Júnior</b></sub></a><br /><a href="https://rapsound.vercel.app" title="rapSound">🎶</a></td>
+  </tr>
+</table>
