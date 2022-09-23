@@ -1,11 +1,11 @@
 ![banner](https://user-images.githubusercontent.com/86114583/191879989-874caca6-8e75-4dcd-a62a-5742f880a1f4.png)
 
-
-
 # 🎵- rapSound
 
 🖥️ - Esse projeto trata-se do desenvolvimento
 de um Website Responsivo baseado no desafio do [Frontmentor.io](https://www.frontendmentor.io/challenges/sunnyside-agency-landing-page-7yVs3B6ef).
+
+Por ser um projeto colaborativo, foram utilizadas branches para cada tarefa e commits semânticos.
 
 
 ## 🛠️Desafio
