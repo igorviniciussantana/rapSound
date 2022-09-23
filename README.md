@@ -37,7 +37,6 @@ Confira abaixo algumas capturas do nosso projeto ja finalizado.
 
 
 ### Mobile
-![mobile](https://user-images.githubusercontent.com/86114583/191880040-693b69d1-6851-428d-bc60-58e5adb8f603.png)
 
 
 
@@ -49,6 +48,6 @@ Confira abaixo algumas capturas do nosso projeto ja finalizado.
 ## Autores
 
 - [@igoviniciussantana](https://github.com/igorviniciussantana)
-- [@igoviniciussantana](https://github.com/igorviniciussantana)
-- [@igoviniciussantana](https://github.com/igorviniciussantana)
-- [@igoviniciussantana](https://github.com/igorviniciussantana)
+- [@Edivaldo12345](https://github.com/Edivaldo12345)
+- [@andredochute](https://github.com/andredochute)
+- [@Carlos-Eduardo-Dias](https://github.com/Carlos-Eduardo-Dias)
