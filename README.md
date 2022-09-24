@@ -3,7 +3,7 @@
 # 🎵- rapSound
 
 🖥️ - Esse projeto trata-se do desenvolvimento
-de um Website Responsivo baseado no desafio do [Frontmentor.io](https://www.frontendmentor.io/challenges/sunnyside-agency-landing-page-7yVs3B6ef).
+de um Website Responsivo baseado no desafio do [Frontendmentor.io](https://www.frontendmentor.io).
 
 Por ser um projeto colaborativo, foram utilizadas branches para cada tarefa e commits semânticos.
 
