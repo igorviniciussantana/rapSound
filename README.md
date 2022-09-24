@@ -29,7 +29,7 @@ deploy em:
 
 ## 📸Screenshots
 
-Confira abaixo algumas capturas do nosso projeto ja finalizado.
+Confira abaixo algumas capturas do nosso projeto já finalizado.
 
 ### Desktop
 
