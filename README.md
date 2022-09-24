@@ -33,10 +33,13 @@ Confira abaixo algumas capturas do nosso projeto ja finalizado.
 
 ### Desktop
 
-![desktop](https://user-images.githubusercontent.com/86114583/191880116-2613a635-39e8-43ac-a8cc-aea3932ba07d.png)
+![Desktop](https://user-images.githubusercontent.com/86114583/192101272-af38399b-0694-4980-af99-05bc6aca967a.png)
+
 
 
 ### Mobile
+
+![Mobile](https://user-images.githubusercontent.com/86114583/192101327-1ce917f2-b3c9-4e79-89d8-ab07c70d40bf.png)
 
 
 
@@ -50,7 +53,7 @@ Confira abaixo algumas capturas do nosso projeto ja finalizado.
   <tr>
     <td align="center"><a href="https://github.com/igorviniciussantana"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/86114583?v=4" width="100px;" alt=""/><br /><sub><b>Igor Vinicius</b></sub></a><br /><a href="https://rapsound.vercel.app" title="rapSound">🎶</a></td>
     <td align="center"><a href="https://github.com/andredochute"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/86085474?v=4" width="100px;" alt=""/><br /><sub><b>André Luís</b></sub></a><br /><a href="https://rapsound.vercel.app" title="rapSound">🎶</a></td>
-    <td align="center"><a href="https://rocketseat.com.br"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/86132535?v=4" width="100px;" alt=""/><br /><sub><b>Carlos Eduardo</b></sub></a><br /><a href="https://rapsound.vercel.app" title="rapSound">🎶</a></td>
-    <td align="center"><a href="https://rocketseat.com.br"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/86030921?v=4" width="100px;" alt=""/><br /><sub><b>Edivaldo Júnior</b></sub></a><br /><a href="https://rapsound.vercel.app" title="rapSound">🎶</a></td>
+    <td align="center"><a href="https://github.com/Carlos-Eduardo-Dias"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/86132535?v=4" width="100px;" alt=""/><br /><sub><b>Carlos Eduardo</b></sub></a><br /><a href="https://rapsound.vercel.app" title="rapSound">🎶</a></td>
+    <td align="center"><a href="https://github.com/Edivaldo12345"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/86030921?v=4" width="100px;" alt=""/><br /><sub><b>Edivaldo Júnior</b></sub></a><br /><a href="https://rapsound.vercel.app" title="rapSound">🎶</a></td>
   </tr>
 </table>
